@@ -76,13 +76,9 @@ Q2.Accept string and display different vowels in it
 # print(s3)
 
 #4.pop,remove,discard,clear
-#s={10,20,"Python",10,True}
-#s.remove(20)
-#s.discard(200)
-#s.clear()
-#del s
-# s=None
-# print(s)
+s={10,20,"Python",10,True}
+x=s.discard(50)
+print(s)
 
 # x=s.pop()
 # print("element removed:",x)
