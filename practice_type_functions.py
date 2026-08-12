@@ -139,4 +139,58 @@
 # x=total()
 # print(x)
 
+#Write a function with no argument and return to return the square of 10.
+# def sqr():
+#     num=eval(input("enter any number:"))
+#     square=num*num
+#     return square
+# res=sqr()
+# print(res)
+
+#with argument with no return
+# def sqr(a):
+#     sq=a*a
+#     print(sq)
+# sqr(5)
+
+# #with argument and with return
+# def sqr(a):
+#     sq=a*a
+#     return sq
+# res=sqr(10)
+# print(res)
+
+#print area of circle using all the types of function
+#1. no argument and no return
+# def areacircle():
+#     r1=eval(input("enter radius1:"))
+#     r2=eval(input("enter radius2:"))
+#     a=3.14*r1*r2
+#     print("area of circle:",a)
+# areacircle()
+
+#2. with argument with no return
+# def areacircle(r1,r2):
+#     a=3.14*r1*r2
+#     print("area of circle:",a)
+# areacircle(2,2)
+
+#3. with no argument and with return
+# def areacircle():
+#     r1=eval(input("enter radius1:"))
+#     r2=eval(input("enter radius2:"))
+#     a=3.14*r1*r2
+#     return a
+# res=areacircle()
+# print(res)
+
+#4. with argument and with return
+# def areacircle(r1,r2):
+#     a=3.14*r1*r2
+#     return a
+# res=areacircle(2,2)
+# print(res)
+
+
+
 

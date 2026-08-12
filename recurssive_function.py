@@ -21,7 +21,6 @@
 #     return n+sum(n+1)
 # print(sum(1))
 
-def sum(x):
     
 
 
