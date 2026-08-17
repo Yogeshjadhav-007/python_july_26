@@ -24,12 +24,17 @@
 # outer()
 
 #----create a ddecorator
-def decor(func):
-    def inner():
-        print("good morning")
-        func()
-    return inner
-def hello():
-    print("hello")
-hello=decor(hello)
-hello()
+# def decor(func):
+#     def inner():
+#         print("good morning")
+#         func()
+#     return inner
+# def hello():
+#     print("hello")
+# hello=decor(hello)
+# hello()
+
+def mul(a,b):
+    return a+b
+d=mul(10,20)
+print(d)
