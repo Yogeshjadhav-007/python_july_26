@@ -1,7 +1,8 @@
 print("this is module")
 
-def add():
-    a=10
-    b=20
-    c=a+b
-    print("add",c)
+def add(a,b):
+    return a+b
+
+def sub(x,y):
+    return x-y
+    
