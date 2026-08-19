@@ -34,7 +34,7 @@
 # hello=decor(hello)
 # hello()
 
-def mul(a,b):
+def mul(a,b): 
     return a+b
 d=mul(10,20)
 print(d)
